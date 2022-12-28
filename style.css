@@ -44,6 +44,8 @@ h2 {
 .top-banner {
     background-image: url(Untitled.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1636px 648 px;
 }
 
 .dream-big {
@@ -83,10 +85,23 @@ footer p {
     text-align: center;
 }
 
+.padd1 {
+    padding-top: 12%;
+
+}
+
 .u1 {
     color: blue;
 }
 
 .u2 {
     color: rgb(128, 10, 240);
+}
+
+.align {
+    text-align: justify;
+}
+
+.padd2 {
+    padding-top: 5%;
 }
