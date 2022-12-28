@@ -8,11 +8,16 @@ h1 {
 
 }
 
-.Orange {
-    color: rgb(0, 149, 255);
+h2 {
+    font-size: 40px;
+
 }
 
-section {
+.Orange {
+    color: rgb(0, 68, 255);
+}
+
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -29,7 +34,7 @@ section {
 
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(rgb(0, 255, 225), rgb(0, 110, 255));
+    background-image: linear-gradient(rgb(0, 255, 225), rgb(0, 13, 255));
     padding: 10px 40px;
     color: white;
     font-weight: 700;
@@ -45,4 +50,35 @@ section {
     background-image: url(Untitled2.png);
     background-repeat: no-repeat;
     background-position: 2%;
+}
+
+.experiance-area {
+    background-image: url(Untitled3.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.shadow {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#web-dev-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#full-stack-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(165, 159, 248), rgb(77, 45, 255));
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
